@@ -35,5 +35,5 @@ include: "rules/diffexp.smk"
 
 rule all:
     input:
-        get_final_output(),
+#        get_final_output(),
         "results/counts/all.tsv"
