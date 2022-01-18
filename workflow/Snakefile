@@ -33,7 +33,7 @@ include: "rules/diffexp.smk"
 ##### target rules #####
 
 
-rule all:
-    input:
+#rule all:
+#    input:
 #        get_final_output(),
-        "results/counts/all.tsv"
+#        "results/counts/all.tsv"
